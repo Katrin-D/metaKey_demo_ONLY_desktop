@@ -1,0 +1,96 @@
+@import "globalVariables";
+
+$black-menu: #181818;
+
+.header {
+  position: fixed;
+  max-width: $page-width;
+  width: 100vw;
+  height: 0;
+  z-index: 2;
+}
+
+.subWrapper {
+  position: relative;
+}
+
+.logo {
+  position: relative;
+  margin: 45px 56px;
+  width: 40px;
+
+  &>div {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transition-property: opacity;
+    transition-duration: 300ms;
+  }
+}
+
+.hamburger {
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+.lineMenu {
+  position: absolute;
+  height: 2px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  transition-property: background-color;
+  transition-duration: 300ms;
+}
+
+.lineMenu1 {
+  width: 20px;
+  right: 0;
+  top: 0;
+}
+
+.lineMenu2 {
+  width: 20px;
+  right: 0;
+  top: 8px;
+}
+
+.lineMenu3 {
+  width: 11px;
+  right: 0;
+  top: 15px;
+}
+
+.blackBgc {
+  background-color: $black-menu;
+}
+
+.blackColor {
+  color: $black-menu;
+}
+
+.burgerMenu {
+  color: white;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  line-height: 17px;
+  text-align: right;
+  position: absolute;
+  right: 50px;
+  margin: 0;
+
+  a {
+    transition-property: color;
+    transition-duration: 300ms;
+  }
+}
+
+.burgerMenuList1 {
+  top: 6px;
+}
+
+.burgerMenuList2 {
+  top: 84px;
+}

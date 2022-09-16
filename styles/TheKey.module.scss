@@ -1,0 +1,92 @@
+.theKeyContent {
+  top: 200px;
+}
+
+.oneKey {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  width: 200px;
+  left: 600px;
+  top: 235px;
+}
+
+.useCases {
+  position: absolute;
+  color: #AFAFAF;
+  width: 780px;
+  left: 166px;
+  top: 235px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+}
+
+.text1 {
+  position: absolute;
+  width: 780px;
+  height: 176px;
+  left: 221px;
+
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 98%;
+  /* or 98% */
+
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #FFFFFF;
+
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.blur {
+  position: absolute;
+  width: 780px;
+  height: 176px;
+  left: 219px;
+  letter-spacing: -0.06em;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 98%;
+  /* or 98% */
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.7);
+
+  filter: blur(8px);
+}
+
+.textFull {
+  position: absolute;
+  width: 780px;
+  height: 176px;
+  left: 344px;
+  letter-spacing: -0.06em;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 63px;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  color: #FFFFFF;
+
+  span {
+    opacity: 0.35;
+  }
+}
+
+.img {
+  position: absolute;
+  width: 475px;
+  height: 267px;
+  left: 460px;
+  top: 210px;
+}

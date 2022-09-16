@@ -1,0 +1,73 @@
+@import "globalVariables";
+
+.root {
+  position: absolute;
+  top: 3380px;
+  width: $page-width;
+  color: white;
+
+  &.fixed {
+    position: fixed;
+    top: -280px;
+    //transition-property: transform;
+    //transition-duration: 70ms;
+    //transition-timing-function: linear;
+  }
+}
+
+.relativeWrapper {
+  width: 1020px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  @include margin-center;
+}
+
+.block {
+  width: 435px;
+  height: 460px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+
+  .title {
+    margin: 75px 0 0 0;
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .body {
+    @include margin-center;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: -0.015em;
+  }
+
+  .body1 {
+    margin-top: 57px;
+  }
+
+  .body2 {
+    margin-top: 20px;
+  }
+}
+
+.block1 {
+  background-image: url("../public/backGround/whatIsMetakeyBg.svg");
+
+  .body {
+    width: 328px;
+  }
+}
+
+.block2 {
+  background-image: url("../public/backGround/howDoesItWorkBg.svg");
+
+  .body {
+    width: 367px;
+  }
+}

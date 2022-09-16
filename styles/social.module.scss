@@ -1,0 +1,35 @@
+
+.fixedSocialWrapper {
+  position: fixed;
+  z-index: 3;
+}
+
+.relativeSocialWrapper {
+  position: relative;
+}
+
+.social {
+  position: absolute;
+  min-width: 200px;
+  left: 234px;
+  top: 325px;
+
+  a {
+    margin-right: 32px;
+
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+
+    &>div {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 3px;
+      left: 0;
+      transition-property: opacity;
+      transition-duration: 300ms;
+    }
+  }
+}

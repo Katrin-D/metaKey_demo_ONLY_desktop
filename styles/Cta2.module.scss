@@ -1,0 +1,91 @@
+$purchasing-color: #00fff0;
+
+.main {
+  width: 100vw;
+  position: absolute;
+  top: 13477px;
+  z-index: 2;
+
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.container {
+  width: 955px;
+  margin: 0 auto;
+}
+
+.blueGlow {
+  margin: 0;
+  color: $purchasing-color;
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-shadow: 0 0 7px $purchasing-color, 0 0 19px $purchasing-color;
+}
+
+.big_title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 98%;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+
+  position: relative;
+  width: 708px;
+  height: 126px;
+  margin: 27px auto 0;
+}
+
+.big_title > div {
+  position: absolute;
+  width: 708px;
+  height: 126px;
+}
+
+.big_title .layer1 {
+  opacity: 0.45;
+}
+
+.big_title .layer3 {
+  left: -5px;
+}
+
+.big_title .layer2 {
+  text-shadow: 0 4px 4px rgb(0 0 0 / 30%), 0 0 12px rgb(241 237 237 / 99%);
+}
+
+.line {
+  width: 42px;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 39px auto 28px;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 180%;
+  margin: 0;
+}
+
+.btn {
+  position: relative;
+  margin: 46px auto 0;
+  width: 149px;
+  height: 33px;
+}
+
+.animation {
+  width: 100%;
+  margin: 0 auto;
+  filter: drop-shadow(6px 20px 53px rgba(0, 0, 0, 0.7));
+  /* filter: drop-shadow(6px 20px 107px rgba(0, 0, 0, 0.7));*/ /*figma parameters*/
+}

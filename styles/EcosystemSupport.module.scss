@@ -1,0 +1,127 @@
+$purchasing-color: #00fff0;
+
+.main {
+  width: 100vw;
+  position: absolute;
+  top: 12470px;
+
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.container {
+  width: 1044px;
+  margin: 180px auto 0;
+}
+
+.container h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 250%;
+  letter-spacing: -0.015em;
+  text-align: center;
+  margin: 0;
+}
+
+.blueGlow {
+  margin: 33px 0 0;
+  color: $purchasing-color;
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-shadow: 0 0 7px $purchasing-color, 0 0 19px $purchasing-color;
+}
+
+.content {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 188%;
+  letter-spacing: -0.015em;
+  position: absolute;
+  transition: transform 1.3s;
+  transition-delay: 0.3s;
+}
+
+.text {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 250%;
+  letter-spacing: -0.015em;
+  width: 252px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1.5s;
+  transition-delay: 0.2s;
+}
+
+.title:hover {
+  transform: scale(0.8);
+  transition: transform 0.7s;
+  transition-delay: 0.1s;
+  cursor: default;
+}
+
+.title:hover + .text {
+  opacity: 1;
+  transition: opacity 1s;
+  transition-delay: 0.1s;
+}
+
+.title1 {
+  top: 56px;
+  left: 178px;
+}
+
+.title2 {
+  top: 370px;
+  left: 230px;
+}
+
+.title3 {
+  top: 102px;
+  right: 275px;
+}
+
+.title4 {
+  top: 395px;
+  right: 231px;
+}
+
+.text1 {
+  top: 98px;
+  left: 0;
+}
+
+.text2 {
+  top: 413px;
+  left: 79px;
+}
+
+.text3 {
+  top: 60px;
+  right: 0;
+}
+
+.text4 {
+  top: 437px;
+  right: 82px;
+}

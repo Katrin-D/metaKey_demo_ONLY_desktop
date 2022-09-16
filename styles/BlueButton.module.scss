@@ -1,0 +1,52 @@
+$button-width: 149px;
+$button-height: 33px;
+
+.buttonSize {
+  min-width: $button-width;
+  height: $button-height;
+}
+
+.longButton {
+  padding: 0 30px;
+}
+
+.defaultButton {
+  padding: 0 39px;
+}
+
+.blur {
+  filter: drop-shadow(0px 0px 35px #00fff0);
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 2px;
+  background-color: rgba(162, 223, 224, 0.8);
+}
+
+.lowerLeft {
+  clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 10.61% 100%, 0% 72%, 0 0);
+}
+
+.double {
+  clip-path: polygon(89.39% 0%, 100% 28%, 100% 100%, 10.61% 100%, 0% 72%, 0 0);
+}
+
+.link {
+  position: relative;
+  display: inline-block;
+  min-width: $button-width;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.065em;
+  text-align: center;
+  font-family: "Open Sans", serif;
+  text-transform: uppercase;
+
+  color: #f9ffff;
+  text-shadow: 0 2px 9px rgba(0, 0, 0, 0.2);
+}

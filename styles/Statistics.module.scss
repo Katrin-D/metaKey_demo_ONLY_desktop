@@ -1,0 +1,128 @@
+.main {
+  position: absolute;
+  width: 100%;
+  top: 18510px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1149px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.14em;
+  margin: 0 0 70px;
+}
+
+.frame {
+  width: 316px;
+  height: 278px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.05);
+  padding: 26px;
+
+  h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36.5px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}
+
+.stat {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+
+  h4 {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 0;
+    width: 50%;
+  }
+}
+
+.value {
+  margin: 0;
+  width: 50%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #00FFF0;
+  text-transform: uppercase;
+  text-shadow: 0 0 6px #00FFF0, 0 0 22px #00FFF0;
+}
+
+.bigValue {
+  font-size: 48px;
+  width: 100%;
+  margin: 25px 0 22px;
+}
+
+.line {
+  width: 226px;
+  height: 1px;
+  background-color: #FFFFFF;
+}
+
+.text {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.frame1 {
+  clip-path: polygon(15.5% 0, 100% 0, 100% 100%, 0 100%, 0 15.8%);
+
+  .stat {
+    margin-top: 18px;
+  }
+
+  .line {
+    margin: 39px auto 41px;
+  }
+}
+
+.frame2 {
+  clip-path: polygon(15.5% 0, 84.5% 0, 100% 15.8%, 100% 100%, 0 100%, 0 15.8%);
+
+  h3 {
+    width: 161px;
+    margin: 0 auto;
+  }
+}
+
+.frame3 {
+  clip-path: polygon(0 0, 100% 0, 100% 84.5%, 84.2% 100%, 0 100%);
+  .line {
+    margin: 24px auto 30px;
+  }
+
+  .stat {
+    margin-bottom: 21px;;
+  }
+}
+
+.btn {
+  position: relative;
+  margin: 0 auto 0;
+  width: 149px;
+  height: 33px;
+}
+
+
+
+

@@ -1,0 +1,157 @@
+.cta1 {
+  position: relative;
+  top: 1400px;
+}
+
+.blueText {
+  position: absolute;
+  width: 450px;
+  height: 116px;
+  left: 465px;
+  top: 1453px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.14em;
+  text-align: center;
+
+  font-family: "Open Sans", serif;
+  /* or 150% */
+
+
+  color: #00FFF0;
+}
+
+.blur {
+  position: absolute;
+  width: 450px;
+  height: 116px;
+  left: 459px;
+  top: 1453px;
+
+  /*font-family: "Open Sans", serif;*/
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: 0.14em;
+
+  color: #00FFF0;
+
+  filter: blur(20px);
+}
+
+.exploring1 {
+  position: absolute;
+  width: 780px;
+  height: 176px;
+  left: 313px;
+  top: 1547px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: -0.06em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.45);
+
+
+  font-family: Montserrat, sans-serif;
+  /* or 98% */
+}
+
+.exploring2 {
+  position: absolute;
+  width: 780px;
+  height: 176px;
+  left: 313px;
+  top: 1547px;
+
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 63px;
+  /* or 98% */
+  color: white;
+
+
+  text-align: center;
+  letter-spacing: -0.06em;
+
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 0 12px rgba(241, 237, 237, 0.99);
+}
+
+.exploring3 {
+  position: absolute;
+  width: 780px;
+  height: 176px;
+  left: 308px;
+  top: 1547px;
+
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 63px;
+  /* or 98% */
+
+  text-align: center;
+  letter-spacing: -0.06em;
+
+  color: #FFFFFF;
+}
+
+.connecting {
+  font-family: 'Open Sans', sans-serif;
+  height: 50px;
+  width: 260px;
+  left: 583px;
+  top: 1723px;
+  border-radius: 0;
+  position: absolute;
+  color: rgba(255, 255, 255, 0.8);
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0em;
+
+  text-align: center;
+}
+
+.b1 {
+
+  color: #FFFFFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.105em;
+
+  text-align: center;
+}
+
+.b2 {
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.07em;
+  text-align: center;
+}
+
+.line {
+  position: absolute;
+  width: 52px;
+  height: 0px;
+  left: 688px;
+  top: 1770px;
+
+}

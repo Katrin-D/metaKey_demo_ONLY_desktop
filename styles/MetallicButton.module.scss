@@ -1,0 +1,72 @@
+$button-width: 149px;
+$button-height: 33px;
+
+.root {
+  color: #F9FFFF;
+  position: absolute;
+
+  a {
+    text-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+    font-family: "Open Sans", serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.065em;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    padding-top: 5px;
+  }
+}
+
+.buttonSize {
+  width: $button-width;
+  height: $button-height;
+}
+
+.upperRight {
+  background-image: url("../public/assets/buyButton/Rectangle 8.svg");
+}
+
+.lowerRight {
+  background-image: url("../public/assets/Cta1/Rectangle 8.svg");
+}
+
+.flat {
+  background-image: url("../public/assets/buyButton/Rectangle 8.png");
+}
+
+.glow {
+  position: absolute;
+  background-color: #00FFF0;
+  filter: blur(30px);
+  width: $button-width * 0.9;
+  height: $button-height * 0.5;
+  left: ($button-width - $button-width * 0.9) * 0.5;
+  top: ($button-height - $button-height * 0.5) * 0.5;
+}
+
+.lowerRightClip {
+  -webkit-clip-path: polygon(100% 0, 100% 55%, 91% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% 55%, 91% 100%, 0 100%, 0 0);
+}
+
+.upperRightClip {
+  -webkit-clip-path: polygon(91% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
+  clip-path: polygon(91% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
+}
+
+.metallicShineEffect {
+  background-image: linear-gradient(63deg, rgba(255,255,255,0) 10%, rgba(255,255,255,1) 26%, rgba(255,255,255,0) 27%);
+  //background-color: rgba(200, 200, 200, 0.5); //for debugging
+  background-repeat: no-repeat;
+  background-position-x: -45px;
+  //background-position-x: 110px; //for debugging
+
+  &:hover {
+    background-position-x: 147px;
+    transition-property: background-position;
+    transition-duration: 400ms;
+  }
+}

@@ -1,0 +1,54 @@
+@import "globalVariables";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.firstPart{
+  position: relative;
+  width: $page-width;
+  margin: 0 auto;
+  height: 4000px
+}
+.firstPart .logo {
+  width: 37px;
+  height: 33px;
+  left: 56px;
+  top: 45px;
+  position: absolute;
+}
+
+.assetBack {
+  position: absolute;
+  width: 319px;
+  height: 45px;
+  left: 231px;
+  top: 256px;
+  /*background: url("../public/assets/header/dbd4b47bdd1992ac0ba8369d56776b91.png");*/
+  filter: blur(1px);
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.p-absolute {
+  position: absolute;
+}

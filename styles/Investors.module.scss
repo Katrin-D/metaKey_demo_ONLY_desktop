@@ -1,0 +1,183 @@
+.main {
+  position: absolute;
+  top: 8160px;
+  width: 100vw;
+  height: 100%;
+  padding: 152px 0 125px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.container {
+  position: relative;
+  max-width: 954px;
+  margin: 0 auto;
+}
+
+.frame {
+  position: absolute;
+}
+
+.title,
+.and_more {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding-top: 36px;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.and_more {
+  position: relative;
+  margin: 0 0 0 205px;
+}
+
+.logos {
+  max-width: 456px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 26px;
+
+  margin-left: 66px;
+  margin-top: 63px;
+  margin-bottom: 36px;
+}
+
+.logo {
+  width: 152px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s;
+}
+
+.logo:active {
+  transform: scale(0.9);
+}
+
+.logo1:hover img {
+  filter: brightness(0) saturate(100%) invert(51%) sepia(99%) saturate(1557%)
+    hue-rotate(165deg) brightness(98%) contrast(89%);
+}
+.logo2:hover img {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(99%) saturate(5606%)
+    hue-rotate(8deg) brightness(88%) contrast(120%);
+}
+
+.logo3:hover img {
+  filter: brightness(0) saturate(100%) invert(63%) sepia(73%) saturate(3089%)
+    hue-rotate(125deg) brightness(89%) contrast(83%);
+}
+
+.logo4:hover img {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(42%) saturate(714%)
+    hue-rotate(1deg) brightness(93%) contrast(84%);
+}
+
+.logo5:hover img {
+  filter: brightness(0) saturate(100%) invert(67%) sepia(59%) saturate(7357%)
+    hue-rotate(275deg) brightness(97%) contrast(87%);
+}
+
+.logo6:hover img {
+  filter: brightness(0) saturate(100%) invert(15%) sepia(90%) saturate(1828%)
+    hue-rotate(214deg) brightness(94%) contrast(92%);
+}
+
+.logo7:hover img {
+  filter: brightness(0) saturate(100%);
+}
+
+.logo8:hover img {
+  filter: brightness(0) saturate(100%) invert(46%) sepia(65%) saturate(258%)
+    hue-rotate(173deg) brightness(89%) contrast(89%);
+}
+
+.logo9:hover img {
+  filter: brightness(0) saturate(100%) invert(71%) sepia(79%) saturate(4879%)
+    hue-rotate(3deg) brightness(108%) contrast(99%);
+}
+.logo10:hover img {
+  filter: brightness(0) saturate(100%) invert(46%) sepia(94%) saturate(323%)
+    hue-rotate(356deg) brightness(99%) contrast(84%);
+}
+.logo11:hover img {
+  filter: brightness(0) saturate(100%) invert(54%) sepia(38%) saturate(839%)
+    hue-rotate(329deg) brightness(96%) contrast(88%);
+}
+.logo12:hover img {
+  filter: brightness(0) saturate(100%);
+}
+.logo13:hover img {
+  filter: brightness(0) saturate(100%) invert(31%) sepia(98%) saturate(672%)
+    hue-rotate(174deg) brightness(93%) contrast(83%);
+}
+.logo14:hover img {
+  filter: brightness(0) saturate(100%) invert(15%) sepia(96%) saturate(4714%)
+    hue-rotate(239deg) brightness(103%) contrast(101%);
+}
+.logo15:hover img {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(61%) saturate(4197%)
+    hue-rotate(322deg) brightness(79%) contrast(94%);
+}
+
+.slider {
+  position: absolute;
+  top: 122px;
+  right: 0;
+  width: 391px;
+  height: 392px;
+}
+
+.slider_bg {
+  position: relative;
+}
+
+.swiper {
+  width: 390px;
+  height: 391px;
+  padding: 45px 48px 32px;
+  position: absolute;
+  top: 0;
+}
+
+
+.photo {
+  opacity: 0.7;
+}
+
+.article_title {
+  width: 272px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 167%;
+  margin: 12px 0;
+}
+
+.article_text {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 192%;
+
+  margin: 0 0 10px;
+}
+
+.read_more {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 188%;
+  text-decoration: underline;
+
+  margin: 0;
+}

@@ -1,0 +1,308 @@
+@mixin center {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.bg1Container {
+  background-image: url('../public/backGround/WEBSITEBACKGROUND8.svg');
+  background-size: 100vw auto;
+  height: 22751px;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.containerSocIcons {
+  @include center();
+  top: 86px;
+}
+
+.spaceBetweenIco {
+  margin-right: 31px;
+}
+
+@mixin Asset {
+  @include center();
+  height: 24px;
+  top: 126px;
+}
+
+.asset12 {
+  @include Asset();
+  filter: blur(20px);
+}
+
+.asset11 {
+  @include Asset();
+  filter: blur(3px);
+}
+
+.asset10 {
+  @include Asset();
+}
+
+.textConnect {
+  @include center();
+  height: 15px;
+  word-spacing: 4px;
+  top: 176px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.07em;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+  @include center();
+  left: 50vw;
+}
+
+.platform {
+  @include center();
+  height: 200px;
+  top: 299px;
+}
+
+@mixin TheKey {
+  @include center();
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Montserrat', serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 63px;
+  letter-spacing: -0.06em;
+  word-spacing: 4px;
+  top: 548px;
+}
+
+.text1 {
+  @include TheKey();
+}
+
+.blur {
+  @include TheKey();
+  color: rgba(255, 255, 255, 0.7);
+  filter: blur(8px);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.textFull {
+  @include TheKey();
+  height: 33px;
+  opacity: 0.8;
+  text-align: center;
+  left: 4px;
+
+  span {
+    opacity: 0.4;
+  }
+}
+
+.imgKey {
+  @include center();
+  height: 161px;
+  top: 640px;
+}
+
+@mixin blueText {
+  @include center();
+  flex-direction: column;
+  height: 30px;
+  top: 860px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #00fff0;
+}
+
+.blueText1 {
+  @include blueText();
+  filter: blur(8px);
+}
+
+.blueText2 {
+  @include blueText();
+}
+
+@mixin exploring {
+  @include center();
+  flex-direction: column;
+  height: 176px;
+  top: 850px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.06em;
+}
+
+.exploring1 {
+  @include exploring();
+  opacity: 0.4;
+  left: -50px;
+
+  span {
+    opacity: 0;
+  }
+}
+
+.exploring2 {
+  @include exploring();
+  left: -2px;
+
+  span {
+    opacity: 0;
+  }
+}
+
+.exploring3 {
+  @include exploring();
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 0 12px rgba(241, 237, 237, 0.99);
+
+  span {
+    opacity: 0;
+  }
+}
+
+@mixin connectingText {
+  color: white;
+  line-height: 10px;
+  font-weight: 300;
+  font-size: 6px;
+  font-style: normal;
+  text-align: center;
+}
+
+.connecting {
+  @include connectingText();
+  font-family: 'Open Sans', sans-serif;
+  @include center();
+  flex-direction: column;
+  height: 50px;
+  top: 970px;
+  border-radius: 0;
+  position: absolute;
+  letter-spacing: 0.07em;
+
+  .grey {
+    opacity: 0.5;
+  }
+}
+
+.b1 {
+  @include connectingText();
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+
+.b2 {
+  @include connectingText();
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.lineCenter {
+  @include center();
+  top: 1015px;
+
+  .line {
+    width: 23px;
+    height: 0;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.68);
+  }
+}
+
+.rect1 {
+  @include center();
+  height: 345px;
+  top: 1111px;
+  border-radius: 5px;
+}
+
+.titleRect {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.065em;
+  color: #ffffff;
+}
+
+.rectText1 {
+  @include center();
+  flex-direction: column;
+  height: 177px;
+  top: 1195px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 22px;
+
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+}
+
+.rect2 {
+  @include center();
+  height: 390px;
+  top: 1535px;
+  border-radius: 5px;
+}
+
+.rectText2 {
+  @include center();
+  flex-direction: column;
+  height: 177px;
+  top: 1640px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+}
+.explore {
+  @include center();
+  height: 44px;
+  top: 1969px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+
+  text-align: center;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  display: block;
+
+  .exploreImg {
+    margin-top: 9px;
+  }
+}

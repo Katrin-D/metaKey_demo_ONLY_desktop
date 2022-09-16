@@ -1,0 +1,115 @@
+/* Circle padination */
+/* Investors component */
+
+.pagination_circle,
+.pagination_circle2 {
+  height: 7px;
+  width: auto;
+  margin-top: 19px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination_circle_mob {
+  height: 4px;
+  width: auto;
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination_circle2 {
+  margin-top: 33px;
+}
+
+.pagination_circle .pagination_bullet,
+.pagination_circle2 .pagination_bullet {
+  width: 7px;
+  height: 7px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 0 6px;
+  transition: all 0.2s ease-in;
+}
+.pagination_circle_mob .pagination_bullet {
+  width: 4px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 0 6px;
+  transition: all 0.2s ease-in;
+}
+
+.pagination_circle .pagination_bullet_active,
+.pagination_circle2 .pagination_bullet_active {
+  width: 34px;
+  height: 7px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin: 0 6px;
+}
+
+.pagination_circle_mob .pagination_bullet_active {
+  width: 21px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin: 0 6px;
+}
+
+/* Line padination */
+/* ComingSoon component */
+
+.pagination_line {
+  height: 7px;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.pagination_line .pagination_line_bullet {
+  flex: 1;
+  height: 1px;
+  background-color: #ffffff;
+  align-self: center;
+  text-align: center;
+  line-height: 32px;
+  transition-property: transform;
+  transition-duration: 400ms;
+}
+
+.pagination_line .pagination_line_bullet_active {
+  flex: 1;
+  /*transform: scaleY(7);*/
+  background-color: #ffffff;
+  margin: 0;
+}
+
+
+.pagination_line h3 {
+  padding: 33px 0 10px;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: -0.015em;
+}
+
+.pagination_line_bullet_active h3 {
+  padding: 36px 0 10px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.pagination_line_bullet h3:hover {
+  font-weight: 700;
+}
+
+/*
+.pagination_line_bullet h3:active {
+  font-size: 11px;
+}
+*/

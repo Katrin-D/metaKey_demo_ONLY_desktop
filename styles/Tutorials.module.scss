@@ -1,0 +1,214 @@
+@import "globalVariables";
+
+$dev-height: 300px;
+$purchasing-color: #00FFF0;
+$line-color: #C7C7C7;
+$lines-animation-speed: 0.9ms;
+$line3-width: 87;
+$line2-width: 60;
+$line1-width: 384;
+$line6-width: 158;
+$line5-width: 108;
+$line4-width: 312;
+$lines-reverse-base-delay: 200ms;
+
+.root {
+  position: absolute;
+  top: 3960px;
+  width: $page-width;
+  height: $dev-height;
+  color: white;
+
+  &.fixed {
+    position: fixed;
+    top: 290px;
+    //transition-property: transform;
+    //transition-duration: 70ms;
+    //transition-timing-function: linear;
+  }
+}
+
+.relativeWrapper {
+  width: 1277px;
+  height: $dev-height;
+  position: relative;
+  @include margin-center;
+
+  &>div {
+    position: absolute;
+  }
+}
+
+.linkBlock {
+  display: block;
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.14em;
+  transition-property: transform, opacity;
+  transition-duration: 500ms;
+  opacity: 0;
+  transform: scaleY(0);
+
+  &.reverse {
+    transition-delay: 0ms;
+  }
+
+  .blueGlow {
+    text-shadow: 0 0 10px $purchasing-color;
+    color: $purchasing-color;
+  }
+}
+
+.tutorialLink {
+  width: 300px;
+  top: 62px;
+  left: 40px;
+  transform-origin: 50% 200%;
+  transition-delay: $line3-width * $lines-animation-speed + $line2-width * $lines-animation-speed + $line1-width * $lines-animation-speed;
+}
+
+.expanded {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.explanationLink {
+  width: 300px;
+  top: 0;
+  right: 40px;
+  transform-origin: 50% 160%;
+  transition-delay: $line6-width * $lines-animation-speed + $line5-width * $lines-animation-speed + $line4-width * $lines-animation-speed;
+}
+
+.key_card {
+  left: 500px;
+  top: -20px;
+  cursor: pointer;
+}
+
+.planetImage {
+  left: 640px;
+  top: 120px;
+  cursor: pointer;
+}
+
+.line {
+  background-color: $line-color;
+  height: 1px;
+  transition-property: transform;
+  transition-timing-function: linear;
+
+  &.lineExpanded {
+    transform: scaleX(1);
+  }
+}
+
+.line1 {
+  width: $line1-width + 0px;
+  top: 138px;
+  transform: scaleX(0);
+  transform-origin: 100% 50%;
+  transition-duration: $line1-width * $lines-animation-speed;
+  transition-delay: $line3-width * $lines-animation-speed + $line2-width * $lines-animation-speed;
+
+  &.reverse {
+    transition-delay: $lines-reverse-base-delay;
+  }
+}
+
+.line2 {
+  width: $line2-width + 0px;
+  top: 180px;
+  left: 366px;
+  transform-origin: 100% 50%;
+  transform: rotate(45deg) scaleX(0);
+  transition-duration: $line2-width * $lines-animation-speed;
+  transition-delay: $line3-width * $lines-animation-speed;
+
+  &.line2Expanded {
+    transform: rotate(45deg) scaleX(1);
+  }
+
+  &.reverse {
+    transition-delay: $lines-reverse-base-delay + $line1-width * $lines-animation-speed;
+  }
+}
+
+.line3 {
+  width: $line3-width + 0px;
+  top: 180px;
+  left: 426px;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+  transition-duration: $line3-width * $lines-animation-speed;
+
+  &.reverse {
+    transition-delay: $lines-reverse-base-delay + $line1-width * $lines-animation-speed + $line3-width * $lines-animation-speed;
+  }
+}
+
+.line4 {
+  width: $line4-width + 0px;
+  top: 98px;
+  right: 0;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  transition-duration: $line4-width * $lines-animation-speed;
+  transition-delay: $line6-width * $lines-animation-speed + $line5-width * $lines-animation-speed;
+
+  &.reverse {
+    transition-delay: $lines-reverse-base-delay;
+  }
+}
+
+.line5 {
+  width: $line5-width + 0px;
+  top: 174px;
+  right: 280px;
+  transform-origin: 0 50%;
+  transform: rotate(-45deg) scaleX(0);
+  transition-duration: $line5-width * $lines-animation-speed;
+  transition-delay: $line6-width * $lines-animation-speed;
+
+  &.line5Expanded {
+    transform: rotate(-45deg) scaleX(1);
+  }
+
+  &.reverse {
+    transition-delay: $lines-reverse-base-delay + $line4-width * $lines-animation-speed;
+  }
+}
+
+.line6 {
+  width: $line6-width + 0px;
+  top: 174px;
+  right: 388px;
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  transition-duration: $line6-width * $lines-animation-speed;
+
+  &.reverse {
+    transition-delay: $lines-reverse-base-delay + $line4-width * $lines-animation-speed + $line5-width * $lines-animation-speed;
+  }
+}
+
+.exploreBlock {
+  top: 377px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  span {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: -0.015em;
+  }
+}

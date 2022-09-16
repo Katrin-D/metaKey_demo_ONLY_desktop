@@ -1,0 +1,61 @@
+.main {
+  width: 100%;
+  height: 589px;
+  position: absolute;
+  top: 17243px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.suptitle {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.14em;
+  margin: 0 0 34px;
+  text-transform: uppercase;
+}
+
+.big_title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 98%;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #000000;
+
+  position: relative;
+  width: 784px;
+  height: 189px;
+  margin: 0 auto;
+
+  > div {
+    position: absolute;
+    width: 784px;
+    height: 189px;
+  }
+
+  .layer1 {
+    color: #afafaf;
+  }
+
+  .layer2 {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.line {
+  width: 52px;
+  height: 1px;
+  background-color: #000000;
+  margin: 29px auto 0;
+}
+
+.joinBtn {
+margin: 54px auto 75px;
+}
